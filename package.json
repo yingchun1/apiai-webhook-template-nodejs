@@ -1,5 +1,5 @@
 {
-  "name": "your-action-app",
+  "name": "join.meeting",
   "description": "This is your Action's webhook",
   "version": "0.0.1",
   "private": true,
