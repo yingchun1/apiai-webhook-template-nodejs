@@ -29,7 +29,7 @@ exports.yourAction = (request, response) => {
   }
 
   const actionMap = new Map();
-  actionMap.set('<API.AI_action_name>', responseHandler);
+  actionMap.set('join.meeting', responseHandler);
 
   app.handleRequest(actionMap);
 };

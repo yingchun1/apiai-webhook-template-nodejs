@@ -10,8 +10,8 @@
   },
   "scripts": {
     "lint": "semistandard --fix \"**/*.js\"",
-    "start": "functions deploy yourAction --trigger-http",
-    "deploy": "gcloud beta functions deploy yourAction --trigger-http --stage-bucket <storage_bucket_name>"
+    "start": "gcloud beta functions deploy join.meeting --trigger-http",
+    "deploy": "gcloud beta functions deploy join.meeting --trigger-http --stage-bucket <storage_bucket_name>"
   },
   "dependencies": {
     "actions-on-google": "^1.0.0"
